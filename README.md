@@ -1,1 +1,1 @@
-# Roadmap.Frontend
+Frontend practice projects from https://roadmap.sh.
