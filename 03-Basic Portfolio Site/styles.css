@@ -1,0 +1,166 @@
+body {
+    padding-top: 30px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.column-center-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    margin: 20px;
+}
+
+.avatar-name-container > h3 {
+    margin-top: 15px;
+}
+
+.role-container {
+    margin-bottom: 20px;
+}
+
+.role-container > span {
+    color: #848a8f;
+}
+
+.top-border {
+    border-top: 1px black solid;
+}
+
+.p-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.p-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projects-container > div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #e9ecef;
+}
+
+.education-container > h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.work {
+    background-color: #e9ecef;
+    ;
+}
+
+.work,
+.education-container,
+.review-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.course-list {
+    padding-top: 15px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+.author,
+.author-role {
+    color: #848a8f;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.review-container {
+    max-width: 300px;
+}
+
+@media (min-width: 660px) {
+    main {
+        display: flex;
+    }
+
+    .projects-container {
+        min-width: 30%;
+        align-items: start;
+        border-right: 1px solid black;
+    }
+
+    .projects-container > h3,
+    .work-container > h3,
+    .education-container > h3 {
+        padding-left: 15px;
+    }
+
+    .projects-container > div {
+        justify-content: start;
+        background-color: white;
+    }
+
+    .projects-container span {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .work-container > div {
+        background-color: white;
+    }
+
+    .work-container {
+        align-items: start;
+        border-right: 1px solid black;
+    }
+
+    .education-container {
+        min-width: 25%;
+        padding: 0;
+    }
+
+    .education-container > h3 {
+        justify-content: start;
+    }
+
+    .education-container > div {
+        border-top: 1px solid black;
+        padding: 10px 15px 10px 15px;
+    }
+
+    .reviews-container {
+        display: flex;
+        justify-content: center;
+    }
+}
